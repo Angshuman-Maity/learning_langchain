@@ -11,3 +11,9 @@ dependencies = [
     "langchain-openai>=1.1.7",
     "python-dotenv>=1.2.1",
 ]
+
+[dependency-groups]
+dev = [
+    "black>=26.1.0",
+    "isort>=7.0.0",
+]
